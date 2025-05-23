@@ -6852,15 +6852,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-audio-api@npm:0.6.0-rc.4":
-  version: 0.6.0-rc.4
-  resolution: "react-native-audio-api@npm:0.6.0-rc.4"
+"react-native-audio-api@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "react-native-audio-api@npm:0.6.0"
   peerDependencies:
     react: "*"
     react-native: "*"
   bin:
     setup-rn-audio-api-web: scripts/setup-rn-audio-api-web.js
-  checksum: 10c0/e7f29ee4aa597714d4d23a42f5ceb15d4742112c317bbb56125c1e78567660585dbeb97d3a4cb7f3e1a9331e7819c9498fa449bc04c419e776682b73666df87a
+  checksum: 10c0/d5fb74650a35bf755d4661d40441b51d322a5ccc3c7388d4df9ede36521b794de714adf178f6111d976f6d0707912298484a74699d2eaba4280cabe6ffbe994b
   languageName: node
   linkType: hard
 
@@ -6885,7 +6885,7 @@ __metadata:
     expo-status-bar: "npm:~2.2.3"
     react: "npm:19.0.0"
     react-native: "npm:0.79.2"
-    react-native-audio-api: "npm:0.6.0-rc.4"
+    react-native-audio-api: "npm:^0.6.0"
     react-native-executorch: ./react-native-executorch-20250429181508.tgz
     react-native-svg: "npm:15.11.2"
     typescript: "npm:~5.8.3"
