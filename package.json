@@ -4,15 +4,20 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eas-build-pre-install": "corepack enable && yarn set version 4"
   },
   "dependencies": {
     "expo": "~53.0.9",
+    "expo-audio": "~0.4.5",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-audio-api": "0.6.0-rc.4",
+    "react-native-executorch": "./react-native-executorch-20250429181508.tgz",
+    "react-native-svg": "15.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
